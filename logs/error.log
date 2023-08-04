@@ -1,0 +1,53 @@
+2023/08/03 04:47:44 [notice] 88459#0: signal process started
+2023/08/03 04:54:27 [notice] 95658#0: signal process started
+2023/08/03 04:57:09 [error] 95659#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.203.131", referrer: "http://192.168.203.131/"
+2023/08/03 05:01:21 [notice] 103237#0: signal process started
+2023/08/03 05:03:59 [notice] 106069#0: signal process started
+2023/08/03 05:10:03 [emerg] 112660#0: unknown directive "keepalive_request" in /usr/local/nginx/conf/nginx.conf:38
+2023/08/03 05:13:16 [notice] 116094#0: signal process started
+2023/08/03 05:13:58 [notice] 116858#0: signal process started
+2023/08/03 05:15:18 [notice] 118301#0: signal process started
+2023/08/03 05:15:23 [error] 118303#0: *8 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.203.131:11180", referrer: "http://192.168.203.131:11180/"
+2023/08/03 05:28:37 [notice] 1276#0: signal process started
+2023/08/03 05:30:03 [notice] 2853#0: signal process started
+2023/08/03 05:32:51 [notice] 5762#0: signal process started
+2023/08/03 06:01:23 [notice] 37954#0: signal process started
+2023/08/03 18:42:58 [notice] 18118#0: signal process started
+2023/08/03 18:55:06 [notice] 18295#0: signal process started
+2023/08/03 18:56:28 [notice] 18326#0: signal process started
+2023/08/03 19:08:16 [notice] 18495#0: signal process started
+2023/08/03 19:46:02 [notice] 18897#0: signal process started
+2023/08/03 19:53:35 [emerg] 19006#0: unknown directive "incloud" in /usr/local/nginx/conf/nginx.conf:43
+2023/08/03 19:54:19 [emerg] 19028#0: open() "/usr/local/nginx/conf/nginx_gzip_conf" failed (2: No such file or directory) in /usr/local/nginx/conf/nginx.conf:43
+2023/08/03 19:56:31 [emerg] 19098#0: open() "/usr/local/nginx/conf/nginx_gzip_conf" failed (2: No such file or directory) in /usr/local/nginx/conf/nginx.conf:43
+2023/08/03 19:58:38 [emerg] 19196#0: "gzip" directive is duplicate in /usr/local/nginx/conf/nginx.conf:44
+2023/08/03 19:59:59 [notice] 19265#0: signal process started
+2023/08/03 20:05:58 [emerg] 19425#0: unknown directive "gzip_static" in /usr/local/nginx/conf/nginx.conf:43
+2023/08/03 20:13:50 [notice] 24414#0: using inherited sockets from "6;"
+2023/08/03 20:14:53 [notice] 24479#0: signal process started
+2023/08/03 20:18:00 [error] 24480#0: *1 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.203.131:11180", referrer: "http://192.168.203.131:11180/"
+2023/08/03 22:44:27 [emerg] 26071#0: invalid number of arguments in "location" directive in /usr/local/nginx/conf/nginx.conf:57
+2023/08/03 22:46:16 [emerg] 26101#0: invalid number of arguments in "location" directive in /usr/local/nginx/conf/nginx.conf:57
+2023/08/03 22:47:25 [emerg] 26125#0: directive "location" has no opening "{" in /usr/local/nginx/conf/nginx.conf:58
+2023/08/03 23:12:35 [notice] 26506#0: signal process started
+2023/08/03 23:13:44 [notice] 26538#0: signal process started
+2023/08/03 23:40:28 [notice] 26854#0: signal process started
+2023/08/03 23:40:46 [error] 26855#0: *7 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.203.131:11111", referrer: "http://192.168.203.131:11111/server"
+2023/08/03 23:42:30 [notice] 26886#0: signal process started
+2023/08/03 23:44:34 [notice] 26927#0: signal process started
+2023/08/03 23:45:45 [notice] 26965#0: signal process started
+2023/08/03 23:47:17 [notice] 26997#0: signal process started
+2023/08/03 23:54:22 [notice] 27143#0: signal process started
+2023/08/03 23:55:02 [notice] 27185#0: signal process started
+2023/08/03 23:58:59 [notice] 27244#0: signal process started
+2023/08/04 00:00:02 [notice] 27295#0: signal process started
+2023/08/04 00:01:09 [notice] 27351#0: signal process started
+2023/08/04 00:03:05 [emerg] 27384#0: unknown directive "if($request_method" in /usr/local/nginx/conf/nginx.conf:59
+2023/08/04 00:03:32 [emerg] 27398#0: unknown "request_methods" variable
+2023/08/04 00:03:44 [notice] 27412#0: signal process started
+2023/08/04 00:23:55 [emerg] 27629#0: invalid condition "$http_user_agent" in /usr/local/nginx/conf/nginx.conf:62
+2023/08/04 00:26:26 [notice] 27689#0: signal process started
+2023/08/04 00:34:55 [notice] 27813#0: signal process started
+2023/08/04 00:35:28 [error] 27814#0: *39 open() "/usr/local/nginx/html/testbreak" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /testbreak?sa HTTP/1.1", host: "192.168.203.131:11111"
+2023/08/04 00:36:07 [error] 27814#0: *39 open() "/usr/local/nginx/html/testbreak" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /testbreak?a=a HTTP/1.1", host: "192.168.203.131:11111"
+2023/08/04 00:36:28 [error] 27814#0: *39 open() "/usr/local/nginx/html/testbreak" failed (2: No such file or directory), client: 192.168.203.1, server: localhost, request: "GET /testbreak?1 HTTP/1.1", host: "192.168.203.131:11111"
